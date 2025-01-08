@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Login</title>
+    <link rel="stylesheet" href="gym.css">
+</head>
+<body class="main1">
+    <div class="main2">
+        <center>
+            <h1 class="h11">GYM MEMBERSHIP FORM</h1>
+            <form action="https://formspree.io/f/mpwwogwk" method="POST">
+                <table>
+                    <tr>
+                        <td><label for="Name">Name</label></td>
+                        <td><input type="text" name="Name" id="Name" placeholder="Enter Your Name" required class="in"></td>    
+                    </tr>
+                    <tr>
+                        <td><label for="number">Phone Number</label></td>
+                        <td><input type="number" name="number" id="number" placeholder="Enter Your Ph No" required class="in"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td><input type="email" name="email" id="email" placeholder="Enter Your Email" required class="in"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Date Of Birth</label></td>
+                        <td><input type="date" placeholder="Enter Your DOB" name="Date of Birth" class="in"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Gender</label></td>
+                        <td class="in1">
+                            <input type="radio" value="Male" name="Gender" class=""> Male
+                            <input type="radio" value="Female" name="Gender"> Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Address">Address</label></td>
+                        <td><textarea name="Address" id="" class="in"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Weight">Weight</label></td>
+                        <td><input type="number" placeholder="Enter Your Weight" class="in"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Membership Status</label></td>
+                        <td class="in1">
+                            <input type="radio" value="Yes" name="Membership Status" class=""> Yes
+                            <input type="radio" value="No" name="Membership Status"> No
+                        </td>
+                    </tr>
+                </table>
+                <div class="button-container">
+                    <button class="btn btn-primary butt" type="submit">SUBMIT</button>
+                </div>
+            </form>
+        </center>
+    </div>
+</body>
+</html>
